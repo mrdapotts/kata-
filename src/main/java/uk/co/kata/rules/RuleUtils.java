@@ -12,7 +12,7 @@ import java.util.logging.Logger;
 public class RuleUtils {
 	private static Logger LOGGER = Logger.getLogger(RuleUtils.class.getName());
 
-	public static BigDecimal String2BigDecimal(String price) {
+	public static BigDecimal String2BigDecimal(final String price) {
 
 		BigDecimal ret;
 		LOGGER.log(Level.FINEST, "Parsing number \"{0}\"", price);

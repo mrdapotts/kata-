@@ -46,7 +46,7 @@ public class FullRule extends MinRule {
 	 * Process a full rule as per spec
 	 */
 	@Override
-	public BigDecimal processData(List<ItemType> priceData) {
+	public BigDecimal processData(final List<ItemType> priceData) {
 
 		int noItems = 0;
 
@@ -85,7 +85,7 @@ public class FullRule extends MinRule {
 	 * @param multiple
 	 *            the multiple to set
 	 */
-	public final void setMultiple(Integer multiple) {
+	public final void setMultiple(final Integer multiple) {
 		this.multiple = multiple;
 	}
 
@@ -100,7 +100,7 @@ public class FullRule extends MinRule {
 	 * @param specialPrice
 	 *            the specialPrice to set
 	 */
-	public final void setSpecialPrice(BigDecimal specialPrice) {
+	public final void setSpecialPrice(final BigDecimal specialPrice) {
 		this.specialPrice = specialPrice;
 	}
 

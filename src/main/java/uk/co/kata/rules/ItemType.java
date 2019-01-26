@@ -1,15 +1,14 @@
 package uk.co.kata.rules;
 /**
  * 
- * 
- * @author Dave Potts
- * 
  * Definition of a name type.  Currently its a single digit string, but if this changes
  * this class will name to be updated.
  *
+ * @author Dave Potts
+ *
  */
 public class ItemType {
-	String itemName;
+	private String itemName;
 
 	public ItemType(final String itemName) {
 		this.itemName = itemName;

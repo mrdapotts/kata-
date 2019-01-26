@@ -4,7 +4,10 @@ import java.math.BigDecimal;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
+/**
+ * Minimule rule implementation
+ * @author Dave Potts
+ */
 public class MinRule extends BaseRule {
 	private static Logger LOGGER = Logger.getLogger(MinRule.class.getName());
 
@@ -33,7 +36,7 @@ public class MinRule extends BaseRule {
 	 * Individual price processing set comments in BaseRule
 	 */
 	@Override
-	public BigDecimal processData(List<ItemType> priceData) {
+	public BigDecimal processData(final List<ItemType> priceData) {
 		int noItems = 0;
 
 		BigDecimal ret = BigDecimal.ZERO;
@@ -63,7 +66,7 @@ public class MinRule extends BaseRule {
 	 * @param unitPrice
 	 *            the unitPrice to set
 	 */
-	public final void setUnitPrice(BigDecimal unitPrice) {
+	public final void setUnitPrice(final BigDecimal unitPrice) {
 		this.unitPrice = unitPrice;
 	}
 

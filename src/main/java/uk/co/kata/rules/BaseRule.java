@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 import java.util.List;
 
 /**
- * Base rule 
+ * Base rule  implementation
  * @author Dave Potts
  *
  */
@@ -14,7 +14,7 @@ public abstract class BaseRule {
 
 	private ItemType itemName;
 
-	BaseRule(ItemType itemName) {
+	BaseRule(final ItemType itemName) {
 		this.itemName = itemName;
 	}
 
@@ -37,7 +37,7 @@ public abstract class BaseRule {
 	 * @param itemName
 	 *            the itemName to set
 	 */
-	public final void setItemName(ItemType itemName) {
+	public final void setItemName(final ItemType itemName) {
 		this.itemName = itemName;
 	}
 

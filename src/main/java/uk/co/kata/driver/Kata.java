@@ -1,9 +1,4 @@
 package uk.co.kata.driver;
-/**
- * Driving class file for Checkout Kata program
- * @author dp42
- *
- */
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -14,10 +9,14 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
 import uk.co.kata.rules.ItemType;
 import uk.co.kata.rules.Rules;
 
+/**
+ * Driving class file for Checkout Kata program
+ * @author Dave Potts
+ *
+ */
 public class Kata {
 	final static String CONFIG_FILE = "rules.properties";
 	final static String LOG_CONFIG_FILE = "logging.properties";

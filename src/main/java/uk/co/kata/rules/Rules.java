@@ -12,7 +12,7 @@ import java.util.logging.Logger;
 
 /**
  * Read in and store rules
- * @author dp42
+ * @author Dave Potts
  *
  */
 public class Rules {
@@ -32,7 +32,7 @@ public class Rules {
 	 * @param rulesFile rules files to process
 	 * @throws IOException
 	 */
-	public void readRules(String rulesFile) throws IOException {
+	public void readRules(final String rulesFile) throws IOException {
 		if (rulesFile == null) {
 			throw new IllegalArgumentException("Empty rules file supplied");
 		}
@@ -112,7 +112,7 @@ public class Rules {
 	 * @param tokens list oftokens to process
 	 * @return parsed rules
 	 */
-	private MinRule mkMinRule(String[] tokens) {
+	private MinRule mkMinRule(final String[] tokens) {
 
 		RuleFactory ruleFactory = RuleFactory.getInstance();
 
@@ -127,7 +127,7 @@ public class Rules {
 	 * @param tokens list of tokens to process
 	 * @return parsed rules
 	 */
-	private FullRule mkFullRule(String[] tokens) {
+	private FullRule mkFullRule(final String[] tokens) {
 
 		RuleFactory ruleFactory = RuleFactory.getInstance();
 
@@ -158,7 +158,7 @@ public class Rules {
 	 * @param priceData
 	 * @return
 	 */
-	public BigDecimal processData(List<ItemType> priceData) {
+	public BigDecimal processData(final List<ItemType> priceData) {
 		// Get a list of items types
 
 		BigDecimal price = BigDecimal.ZERO;

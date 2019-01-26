@@ -10,7 +10,12 @@ import org.junit.Test;
 
 import uk.co.kata.driver.Kata;
 import uk.co.kata.rules.Rules;
-
+/**
+ *       Run some basic tests on the kata program
+ *       Assumes that junit isonthe class path
+ *       @author Dave Potts
+ *
+ */
 public class BasicTest {
 
 	
@@ -56,7 +61,7 @@ public class BasicTest {
 	}
 	/**
 	 *
-	 *  Should return the cost of four A items ie 180
+	 * Should return the cost of four A items ie 180
 	 * @throws IOException
 	 * @throws IllegalArgumentException
 	 * 
@@ -79,7 +84,7 @@ public class BasicTest {
 	
 	/**
 	 *
-	 *  Should return the cost of four A items ie 180
+	 * Should return the cost of four A items ie 180
 	 * @throws IOException
 	 * @throws IllegalArgumentException
 	 * 
@@ -102,7 +107,7 @@ public class BasicTest {
 	
 	/**
 	 *
-	 *  Should return the cost of three A items ie 130
+	 * Should return the cost of three A items ie 130
 	 * @throws IOException
 	 * @throws IllegalArgumentException
 	 * 
@@ -126,7 +131,7 @@ public class BasicTest {
 	
 	/**
 	 *
-	 *  Should return the cost of four A items ie 180
+	 * Should return the cost of four A items ie 180
 	 * @throws IOException
 	 * @throws IllegalArgumentException
 	 * 
@@ -149,7 +154,7 @@ public class BasicTest {
 	
 	/**
 	 *
-	 *  Should return the cost of four D items ie 180
+	 * Should return the cost of four D items ie 180
 	 * @throws IOException
 	 * @throws IllegalArgumentException
 	 * 

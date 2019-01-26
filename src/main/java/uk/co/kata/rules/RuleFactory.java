@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 
 /**
  * Gross overkill for this example, but if more complex rules are going to be
- * impelemented, it might have an example here.
+ * implemented, it might have an example here.
  * 
  * @author Dave Potts
  *
